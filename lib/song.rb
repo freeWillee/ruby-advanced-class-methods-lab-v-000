@@ -60,9 +60,10 @@ class Song
   end
 
   def self.new_from_filename(filename)
+    filename.chomp(".mp3")
+    binding.pry
 
-    
-    
+
     #return the song object with the right song title and artist from filename
     song
   end
