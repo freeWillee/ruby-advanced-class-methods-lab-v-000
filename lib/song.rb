@@ -65,7 +65,7 @@ class Song
     file_array = file.split(" - ")
     @artist_name = file_array[0]
     @name = file_array[1]
-
+    binding.pry
     #return the song object with the right song title and artist from filename
     song
   end
