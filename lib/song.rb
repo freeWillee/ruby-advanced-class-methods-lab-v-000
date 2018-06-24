@@ -60,7 +60,7 @@ class Song
   end
 
   def self.new_from_filename(filename)
-    create
+    song = Song.create
     file = filename.chomp(".mp3")
     binding.pry
     file_array = file.split(" - ")
@@ -68,7 +68,7 @@ class Song
     @name = file_array[1]
     binding.pry
     #return the song object with the right song title and artist from filename
-    song
+
     binding.pry
   end
 
