@@ -68,6 +68,7 @@ class Song
     binding.pry
     #return the song object with the right song title and artist from filename
     song
+    binding.pry
   end
 
 
